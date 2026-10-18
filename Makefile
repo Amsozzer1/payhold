@@ -1,4 +1,7 @@
-.PHONY: hooks sync test
+SEED ?= 1
+N ?= 500
+
+.PHONY: hooks sync test gen
 
 hooks:
 	git config core.hooksPath .githooks
@@ -9,3 +12,6 @@ sync: hooks
 
 test:
 	uv run pytest -q
+
+gen:
+	uv run python -m generator gen --seed $(SEED) --n $(N)
