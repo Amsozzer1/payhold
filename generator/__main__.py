@@ -84,7 +84,17 @@ def main() -> None:
     g.add_argument("--seed", type=int, required=True)
     g.add_argument("--n", type=int, default=500)
     g.add_argument("--out", type=Path)
+    h = sub.add_parser("gen-heldout", help="held-out look-alikes for an existing seed")
+    h.add_argument("--seed", type=int, required=True)
+    h.add_argument("--dir", type=Path)
     args = ap.parse_args()
+    if args.cmd == "gen-heldout":
+        from generator.heldout import generate_heldout
+
+        d = args.dir or Path("data") / f"seed-{args.seed}"
+        packets = generate_heldout(args.seed, d)
+        print(f"seed {args.seed}: {len(packets)} held-out packets in {d / 'heldout'}")
+        return
     if args.cmd == "gen":
         out = args.out or Path("data") / f"seed-{args.seed}"
         got = generate(args.seed, args.n, out)

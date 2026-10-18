@@ -56,3 +56,9 @@ FACTORS = [
 # Main-stream report seeds and dev seeds (thresholds are tuned on dev seeds only).
 REPORT_SEEDS = [1, 2, 3, 4, 5]
 DEV_SEEDS = [101, 102]
+
+# Held-out look-alikes (written after the freeze commit): 25 per kind per seed.
+HELDOUT_PER_KIND = 25
+# Carriers with an unverified remit-to change this recent are left out of the held-out set, so a
+# held-out packet can only be held for its own feature. Wider than any window the checks use.
+HELDOUT_REMIT_EXCLUDE_DAYS = 60
