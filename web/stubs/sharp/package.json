@@ -1,0 +1,7 @@
+{
+  "name": "sharp",
+  "version": "0.0.0-stub",
+  "description": "Empty stand-in. The page is a static export with plain <img> tags, so Next.js image optimization (the only user of sharp) never runs, and the LGPL libvips binaries that sharp downloads are not needed.",
+  "license": "MIT",
+  "main": "index.js"
+}
