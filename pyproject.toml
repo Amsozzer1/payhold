@@ -1,0 +1,29 @@
+[project]
+name = "payhold"
+version = "0.1.0"
+description = "A paperwork-to-payout check for factored freight invoices, run on synthetic data."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "boto3>=1.35",
+    "pdfplumber>=0.11",
+    "pydantic>=2.9",
+    "reportlab>=4.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "integration: needs DynamoDB Local (run with make test-integration)",
+]
+addopts = "-m 'not integration'"
