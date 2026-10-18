@@ -15,9 +15,9 @@ def seed1_run(seed1):
         for name, d in (("payhold", ph), ("baseline", bl)):
             orig = d.process
 
-            def wrapped(packet, _orig=orig, _name=name):
+            def wrapped(packet, *args, _orig=orig, _name=name):
                 seen[_name].append(packet)
-                return _orig(packet)
+                return _orig(packet, *args)
 
             d.process = wrapped
 

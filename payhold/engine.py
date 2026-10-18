@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import time
+
 from payhold import config, payout
 from payhold.checks import CHECKS
 from payhold.checks.base import Context, Reason
@@ -72,11 +74,17 @@ class Payhold:
             self.store.set_status(pk, packet.factor_id, packet.request_id, status)
         self.store.append_audit(packet.request_id, packet.requested_at, {"event": "decision", **decision.model_dump(mode="json")})
 
-    def process(self, packet: Packet) -> Decision:
-        """ingest -> decide -> pay (if clean) -> record, on the packet's synthetic clock."""
+    def process(self, packet: Packet, timings: dict | None = None) -> Decision:
+        """ingest -> decide -> pay (if clean) -> record, on the packet's synthetic clock.
+
+        If `timings` is given, the seconds spent in the checks are stored under "checks".
+        """
         self.clock.set(parse(packet.requested_at))
         self.ingest(packet)
+        t0 = time.perf_counter()
         d = self.decide(packet)
+        if timings is not None:
+            timings["checks"] = time.perf_counter() - t0
         if d.decision == "pay":
             result = self.pay(packet)
             if result != "sent":

@@ -51,9 +51,27 @@ def run_seed(seed_dir: Path, deciders=None) -> SeedRun:
     for req in requests:
         t0 = time.perf_counter()
         packet = extract_packet(req, seed_dir)
-        t1 = time.perf_counter()
-        p_dec = ph.process(packet)  # both deciders get this same Packet object
-        t2 = time.perf_counter()
-        b_dec = bl.process(packet)
-        rows.append(Row(req["request_id"], packet, truth[req["request_id"]], b_dec, p_dec, t1 - t0, t2 - t1))
+        extract_s = time.perf_counter() - t0
+        timings: dict = {}
+        p_dec = ph.process(packet, timings)
+        b_dec = bl.process(packet)  # the same Packet object payhold just read
+        rows.append(Row(req["request_id"], packet, truth[req["request_id"]], b_dec, p_dec, extract_s, timings.get("checks", 0.0)))
     return SeedRun(world["seed"], world, rows, ph, bl)
+
+
+def decision_record(truth: dict, baseline: Decision, payhold: Decision) -> dict:
+    return {
+        "request_id": truth["request_id"],
+        "seq": truth["seq"],
+        "factor_id": truth["factor_id"],
+        "issue_type": truth["issue_type"],
+        "issue_name": truth["issue_name"],
+        "lookalike": truth["lookalike"],
+        "exposure_cents": truth["exposure_cents"],
+        "baseline": {"decision": baseline.decision, "codes": [r.code for r in baseline.reasons]},
+        "payhold": {
+            "decision": payhold.decision,
+            "codes": [r.code for r in payhold.reasons],
+            "messages": [r.message for r in payhold.reasons],
+        },
+    }
