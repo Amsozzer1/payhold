@@ -21,12 +21,25 @@ Produced by `make eval` (`eval/run.py`, `eval/report.py`); raw decisions in `res
 | Clean packets paid straight through: held-out look-alikes | Paid / total. Separate stream implemented after the freeze commit; decision code, thresholds and dependencies unchanged since. Each packet decided independently against the end-of-stream snapshot. | 100.0% (100.0-100.0%) | 100.0% (100.0-100.0%) | aggregate: median (min-max) across seeds | 5 seeds x 50 | 250 | `results/decisions.json` |
 | Held-out kind: DBA name on BOL/POD | Paid / total, this kind only | 100.0% (100.0-100.0%) | 100.0% (100.0-100.0%) | aggregate: median (min-max) across seeds | 5 seeds x 25 | 125 | `results/decisions.json` |
 | Held-out kind: same load number, different broker (confirms key scoping) | Paid / total, this kind only | 100.0% (100.0-100.0%) | 100.0% (100.0-100.0%) | aggregate: median (min-max) across seeds | 5 seeds x 25 | 125 | `results/decisions.json` |
-| Duplicate payouts (a) | Rail attempts per load, 50 concurrent distinct requests for one load, rail dedupe off, DynamoDB Local | n/a | 1 in every trial | aggregate: min-max across trials | 100 trials | 100 loads | `results/payout_trials.json` |
-| Duplicate payouts (b) | Rail attempts per load, 50 concurrent copies of one request, rail dedupe off, DynamoDB Local | n/a | 1 in every trial | aggregate: min-max across trials | 100 trials | 100 loads | `results/payout_trials.json` |
-| Duplicate payouts (c) | Crash after the rail call, clock past the lease, retry | n/a | 2 attempts, 1 send in every trial | aggregate across trials | 100 trials | 100 loads | `results/payout_trials.json` |
-| Read-then-write control | Scenario (a) with the conditional write replaced by read-then-write. A race, so it varies run to run | n/a | 5-37 rail attempts per load | single run of 100 trials, min-max | 100 trials | 100 loads | `results/payout_naive_control.json` |
+| Duplicate payouts (a) | Rail attempts per load, 50 concurrent distinct requests for one load, rail dedupe off, DynamoDB Local | no payout step | 1 in every trial | aggregate: min-max across trials | 100 trials | 100 loads | `results/payout_trials.json` |
+| Duplicate payouts (b) | Rail attempts per load, 50 concurrent copies of one request, rail dedupe off, DynamoDB Local | no payout step | 1 in every trial | aggregate: min-max across trials | 100 trials | 100 loads | `results/payout_trials.json` |
+| Duplicate payouts (c) | Crash after the rail call, clock past the lease, retry | no payout step | 2 attempts, 1 send in every trial | aggregate across trials | 100 trials | 100 loads | `results/payout_trials.json` |
+| Read-then-write control | Scenario (a) with the conditional write replaced by read-then-write. A race, so it varies run to run | no payout step | 5-37 rail attempts per load | single run of 100 trials, min-max | 100 trials | 100 loads | `results/payout_naive_control.json` |
+| Extraction round-trip | Every extracted field vs the generator's spec, seed 1 and dev seeds 101-102 | no separate extractor | 0 failures in 54,000 field checks | aggregate over 3 seeds | 3 seeds x 500 packets x 3 PDFs | 54,000 fields | `results/roundtrip.txt` (`make roundtrip`) |
 
 Decision latency is in [`latency.md`](latency.md) (timings are kept out of this file so it stays byte-identical across runs).
+
+## Money shot (seed 1, single run)
+
+Numbers shown on the page and in `docs/demo.gif`, exported to `web/public/data/seed1.json` by `make eval`. Single run of seed 1, on synthetic packets with planted issues.
+
+| Number | Baseline | payhold |
+|---|---|---|
+| Packets replayed | 500 | 500 |
+| Bad-packet exposure paid out | $148,325 | $0 |
+| Clean packets paid straight through (plain and seen look-alikes) | 415 / 415 | 415 / 415 |
+
+Featured packet: request S1-0004, the first double-factoring follower in seed 1 that the baseline paid and payhold held. Load 9086253 arrives through Cobalt Receivables 35 synthetic minutes after Alder Funding asked to pay it (request S1-0001); exposure $1,725. Reason line, from the decision record: `load 9086253 from broker USDOT 99684502 already requested through Alder Funding at 2026-03-02T06:07:00Z (request S1-0001)`
 
 ## Per seed
 

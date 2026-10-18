@@ -8,8 +8,8 @@ In-process, sequential, one Python process over the main-stream eval packets of 
 
 | Stage | p50 (ms) | p95 (ms) | n |
 |---|---|---|---|
-| extraction (3 PDFs) | 16.75 | 21.00 | 2400 |
-| checks | 0.04 | 0.05 | 2400 |
-| extraction + checks | 16.79 | 21.05 | 2400 |
+| extraction (3 PDFs) | 16.77 | 20.19 | 2400 |
+| checks | 0.04 | 0.06 | 2400 |
+| extraction + checks | 16.81 | 20.24 | 2400 |
 
 Percentiles are nearest-rank. Raw per-packet timings: `results/latency_raw.json`.
