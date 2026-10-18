@@ -137,10 +137,11 @@ def evaluate(seeds: list[int], n: int, data: Path, results: Path, web: Path | No
     if heldout:
         (results / "heldout_decisions.json").write_text(json.dumps(held, indent=1, sort_keys=True) + "\n")
     print(write_latency(timings, results))
-    print(report.write(results, freeze))
+    money_shot = None
     if web is not None:
-        exported = web_export.export(first[0], first[1], web)
-        print(f"web data: {web} (featured {exported['featured']['request_id']})")
+        money_shot = web_export.export(first[0], first[1], web)
+        print(f"web data: {web} (featured {money_shot['featured']['request_id']})")
+    print(report.write(results, freeze, money_shot))
     return decisions
 
 

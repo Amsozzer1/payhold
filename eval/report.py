@@ -30,7 +30,30 @@ def exposure_cell(per_seed: list[int]) -> str:
     return f"{usd(med)} ({usd(lo)}-{usd(hi)})"
 
 
-def build(decisions: dict, payout: dict | None, control: dict | None, freeze: str | None) -> str:
+def money_shot_section(ms: dict) -> list[str]:
+    s, f = ms["summary"], ms["featured"]
+    from datetime import datetime
+
+    gap = (datetime.fromisoformat(f["requested_at"].replace("Z", "+00:00")) - datetime.fromisoformat(f["anchor_requested_at"].replace("Z", "+00:00"))).seconds // 60
+    return [
+        f"## Money shot (seed {s['seed']}, single run)",
+        "",
+        f"Numbers shown on the page and in `docs/demo.gif`, exported to `web/public/data/seed1.json` by `make eval`. Single run of seed {s['seed']}, {CAVEAT}.",
+        "",
+        "| Number | Baseline | payhold |",
+        "|---|---|---|",
+        f"| Packets replayed | {s['packets']} | {s['packets']} |",
+        f"| Bad-packet exposure paid out | {usd(s['exposure_paid_baseline_cents'])} | {usd(s['exposure_paid_payhold_cents'])} |",
+        f"| Clean packets paid straight through (plain and seen look-alikes) | {s['clean_paid_baseline']} / {s['clean_packets']} | {s['clean_paid_payhold']} / {s['clean_packets']} |",
+        "",
+        f"Featured packet: request {f['request_id']}, the first double-factoring follower in seed {s['seed']} that the baseline paid and payhold held. "
+        f"Load {f['load_no']} arrives through {f['factor']} {gap} synthetic minutes after {f['anchor_factor']} asked to pay it "
+        f"(request {f['anchor_request_id']}); exposure {usd(f['exposure_cents'])}. Reason line, from the decision record: `{f['reason']}`",
+        "",
+    ]
+
+
+def build(decisions: dict, payout: dict | None, control: dict | None, freeze: str | None, money_shot: dict | None = None) -> str:
     seeds = decisions["seeds"]
     main = {s: decisions["main"][str(s)] for s in seeds}
     heldout = {s: decisions["heldout"][str(s)] for s in seeds if str(s) in decisions.get("heldout", {})}
@@ -111,6 +134,9 @@ def build(decisions: dict, payout: dict | None, control: dict | None, freeze: st
         )
     L += ["", "Decision latency is in [`latency.md`](latency.md) (timings are kept out of this file so it stays byte-identical across runs).", ""]
 
+    if money_shot:
+        L += money_shot_section(money_shot)
+
     # ---- per seed -------------------------------------------------------------------------
     L += ["## Per seed", "", "| Seed | Planted exposure | Paid out: baseline | Paid out: payhold | Plain clean paid: baseline | Plain clean paid: payhold | Seen look-alikes paid: baseline | Seen look-alikes paid: payhold |", "|---|---|---|---|---|---|---|---|"]
     for s in seeds:
@@ -172,13 +198,13 @@ def build(decisions: dict, payout: dict | None, control: dict | None, freeze: st
     return "\n".join(L)
 
 
-def write(results: Path, freeze: str | None) -> str:
+def write(results: Path, freeze: str | None, money_shot: dict | None = None) -> str:
     decisions = json.loads((results / "decisions.json").read_text())
     if (p := results / "heldout_decisions.json").exists():
         held = json.loads(p.read_text())
         decisions["heldout"], decisions["heldout_labels"] = held["heldout"], held["labels"]
     payout = json.loads(p.read_text()) if (p := results / "payout_trials.json").exists() else None
     control = json.loads(p.read_text()) if (p := results / "payout_naive_control.json").exists() else None
-    text = build(decisions, payout, control, freeze)
+    text = build(decisions, payout, control, freeze, money_shot)
     (results / "numbers.md").write_text(text)
     return text
