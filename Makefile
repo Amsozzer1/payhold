@@ -3,7 +3,7 @@ N ?= 500
 DDB_IMAGE := amazon/dynamodb-local:3.3.1
 DDB_ENV := AWS_ACCESS_KEY_ID=dummy AWS_SECRET_ACCESS_KEY=dummy AWS_DEFAULT_REGION=us-east-1
 
-.PHONY: hooks sync test gen roundtrip dev eval ddb-up ddb-down test-integration payout-trials
+.PHONY: hooks sync test gen gen-heldout roundtrip dev eval ddb-up ddb-down test-integration payout-trials
 
 hooks:
 	git config core.hooksPath .githooks
@@ -17,6 +17,12 @@ test:
 
 gen:
 	uv run python -m generator gen --seed $(SEED) --n $(N)
+
+# Held-out look-alikes for an existing seed (separate files; the main stream is untouched), then validate them.
+gen-heldout:
+	[ -f data/seed-$(SEED)/truth.json ] || uv run python -m generator gen --seed $(SEED) --n $(N)
+	uv run python -m generator gen-heldout --seed $(SEED)
+	uv run python -m generator.validate_heldout data/seed-$(SEED)
 
 # Extraction round-trip on seed 1 and the dev seeds, every field, failures listed by field.
 roundtrip:
@@ -49,4 +55,5 @@ payout-trials: ddb-up
 
 # Report seeds 1-5 through both deciders. Local only: refuses a dirty tree or decision code that moved since the freeze.
 eval:
+	for s in 1 2 3 4 5; do $(MAKE) --no-print-directory gen-heldout SEED=$$s || exit 1; done
 	uv run python -m eval.run --seeds 1 2 3 4 5 --n $(N)
