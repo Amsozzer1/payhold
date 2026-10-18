@@ -1,0 +1,13 @@
+# Decision thresholds. Tuned on dev seeds 101-102 only; report seeds 1-5 never informed them.
+
+[padding]
+# Invoice total may exceed the rate con total by at most this much.
+tolerance_cents = 0
+
+[remit]
+# A remit-to change this recent is risky unless it was verified and came from a contact on file.
+recent_change_days = 30
+
+[payout]
+# How long a payout claim is held before a retry of the same request may take it over.
+lease_seconds = 300
