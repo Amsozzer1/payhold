@@ -103,6 +103,8 @@ def run_heldout(run, d: Path) -> list[dict]:
         packet = extract_packet(req, d)
         ph, bl = run.payhold.snapshot(), run.baseline.snapshot()
         rec = decision_record(truth[req["request_id"]], bl.process(packet), ph.process(packet))
+        # Eval-side probe, not a decider: would a rate-con-name-only comparison have flagged this BOL?
+        rec["bol_name_matches_ratecon"] = packet.bol.carrier_name.norm == packet.ratecon.carrier_name.norm
         allowed = HELDOUT_ALLOWED[rec["lookalike"]]
         for who in ("payhold", "baseline"):
             stray = set(rec[who]["codes"]) - allowed[who]

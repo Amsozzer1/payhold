@@ -18,11 +18,11 @@ def pct(num: int, den: int) -> str:
     return f"{100 * num / den:.1f}%"
 
 
-def rate_row(per_seed: list[tuple[int, int]]) -> tuple[str, int]:
+def rate_row(per_seed: list[tuple[int, int]]) -> tuple[str, str]:
     rates = [p / n for p, n in per_seed]
     med, lo, hi = m.summary(rates)
     n = sum(n for _, n in per_seed)
-    return f"{100 * med:.1f}% ({100 * lo:.1f}-{100 * hi:.1f}%)", n
+    return f"{100 * med:.1f}% ({100 * lo:.1f}-{100 * hi:.1f}%)", f"{n:,}"
 
 
 def exposure_cell(per_seed: list[int]) -> str:
@@ -158,6 +158,17 @@ def build(decisions: dict, payout: dict | None, control: dict | None, freeze: st
                 label = decisions.get("heldout_labels", {}).get(kind, kind)
                 L.append(f"| {s} | {label} | {n} | {pb} | {pp} | {reasons} |")
         L.append("")
+        dba = [r for s in seeds for r in heldout[s] if r["lookalike"] == "dba_on_bol"]
+        if dba and all("bol_name_matches_ratecon" in r for r in dba):
+            differ = sum(1 for r in dba if not r["bol_name_matches_ratecon"])
+            L += [
+                "What the DBA kind actually tests: in "
+                f"{differ} of {len(dba)} DBA packets the BOL name does not match the rate con name after normalization "
+                "(eval-side probe, not a decider). payhold passes them because the name check also accepts the DBA in the "
+                "carrier registry. That rule was written before the freeze, but the plan already said carriers have DBAs, "
+                "so this row is weaker evidence than a truly unseen look-alike would be. See `docs/design-notes.md`.",
+                "",
+            ]
     return "\n".join(L)
 
 
