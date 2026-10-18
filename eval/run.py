@@ -16,6 +16,20 @@ from eval import gate, report, web_export
 from eval.runner import decision_record, run_seed
 from generator import settings
 from generator.__main__ import generate
+from generator.heldout import LABELS as HELDOUT_LABELS
+from generator.heldout import generate_heldout
+from generator.validate_heldout import validate
+from payhold.extract.pdf import extract_packet
+
+# A held-out packet may only be held for a reason its own feature could cause. Anything else means
+# the generator collided with main-stream state, and the run fails rather than reporting it.
+HELDOUT_ALLOWED = {
+    "dba_on_bol": {"payhold": {"double_brokering"}, "baseline": set()},
+    "same_load_no_other_broker": {
+        "payhold": {"duplicate_rebill", "double_factoring"},
+        "baseline": {"baseline_duplicate_load"},
+    },
+}
 
 DROP_FIRST = 100  # warm-up packets dropped once, at the start of the process
 
@@ -76,9 +90,32 @@ def write_latency(timings: list[dict], results: Path) -> str:
     return text
 
 
-def evaluate(seeds: list[int], n: int, data: Path, results: Path, web: Path | None, freeze: str | None) -> dict:
+def run_heldout(run, d: Path) -> list[dict]:
+    """Each held-out packet is decided against its own snapshot of both deciders at end of stream."""
+    if not (d / "heldout_truth.json").exists():
+        generate_heldout(run.seed, d)
+    problems = validate(d)
+    if problems:
+        raise SystemExit("held-out validator failed:\n" + "\n".join(problems[:20]))
+    truth = {p["request_id"]: p for p in json.loads((d / "heldout_truth.json").read_text())["packets"]}
+    records = []
+    for req in json.loads((d / "heldout_requests.json").read_text()):
+        packet = extract_packet(req, d)
+        ph, bl = run.payhold.snapshot(), run.baseline.snapshot()
+        rec = decision_record(truth[req["request_id"]], bl.process(packet), ph.process(packet))
+        allowed = HELDOUT_ALLOWED[rec["lookalike"]]
+        for who in ("payhold", "baseline"):
+            stray = set(rec[who]["codes"]) - allowed[who]
+            if stray:
+                raise SystemExit(f"held-out collision: {req['request_id']} ({rec['lookalike']}) held by {who} for {sorted(stray)}")
+        records.append(rec)
+    return records
+
+
+def evaluate(seeds: list[int], n: int, data: Path, results: Path, web: Path | None, freeze: str | None, heldout: bool = False) -> dict:
     results.mkdir(parents=True, exist_ok=True)
     decisions: dict = {"synthetic": True, "seeds": seeds, "main": {}}
+    held: dict = {"synthetic": True, "seeds": seeds, "labels": HELDOUT_LABELS, "heldout": {}}
     timings: list[dict] = []
     first = None
     for s in seeds:
@@ -91,7 +128,12 @@ def evaluate(seeds: list[int], n: int, data: Path, results: Path, web: Path | No
             for r in run.rows
         ]
         print(f"seed {s}: {len(run.rows)} packets decided")
+        if heldout:
+            held["heldout"][str(s)] = run_heldout(run, d)
+            print(f"seed {s}: {len(held['heldout'][str(s)])} held-out packets decided against the end-of-stream snapshot")
     (results / "decisions.json").write_text(json.dumps(decisions, indent=1, sort_keys=True) + "\n")
+    if heldout:
+        (results / "heldout_decisions.json").write_text(json.dumps(held, indent=1, sort_keys=True) + "\n")
     print(write_latency(timings, results))
     print(report.write(results, freeze))
     if web is not None:
@@ -110,7 +152,7 @@ def main() -> None:
     args = ap.parse_args()
     report_run = bool(set(args.seeds) & set(settings.REPORT_SEEDS))
     freeze = gate.check() if report_run else None
-    evaluate(args.seeds, args.n, args.data, args.results, args.web, freeze)
+    evaluate(args.seeds, args.n, args.data, args.results, args.web, freeze, heldout=report_run)
 
 
 if __name__ == "__main__":

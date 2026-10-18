@@ -163,6 +163,9 @@ def build(decisions: dict, payout: dict | None, control: dict | None, freeze: st
 
 def write(results: Path, freeze: str | None) -> str:
     decisions = json.loads((results / "decisions.json").read_text())
+    if (p := results / "heldout_decisions.json").exists():
+        held = json.loads(p.read_text())
+        decisions["heldout"], decisions["heldout_labels"] = held["heldout"], held["labels"]
     payout = json.loads(p.read_text()) if (p := results / "payout_trials.json").exists() else None
     control = json.loads(p.read_text()) if (p := results / "payout_naive_control.json").exists() else None
     text = build(decisions, payout, control, freeze)
