@@ -1,0 +1,4776 @@
+{
+ "heldout": {
+  "1": [
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X001",
+    "seq": 500
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X002",
+    "seq": 501
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X003",
+    "seq": 502
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X004",
+    "seq": 503
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X005",
+    "seq": 504
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X006",
+    "seq": 505
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X007",
+    "seq": 506
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X008",
+    "seq": 507
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X009",
+    "seq": 508
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X010",
+    "seq": 509
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X011",
+    "seq": 510
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X012",
+    "seq": 511
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X013",
+    "seq": 512
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X014",
+    "seq": 513
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X015",
+    "seq": 514
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X016",
+    "seq": 515
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X017",
+    "seq": 516
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X018",
+    "seq": 517
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X019",
+    "seq": 518
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X020",
+    "seq": 519
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X021",
+    "seq": 520
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X022",
+    "seq": 521
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X023",
+    "seq": 522
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X024",
+    "seq": 523
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X025",
+    "seq": 524
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X026",
+    "seq": 525
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X027",
+    "seq": 526
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X028",
+    "seq": 527
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X029",
+    "seq": 528
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X030",
+    "seq": 529
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X031",
+    "seq": 530
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X032",
+    "seq": 531
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X033",
+    "seq": 532
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X034",
+    "seq": 533
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X035",
+    "seq": 534
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X036",
+    "seq": 535
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X037",
+    "seq": 536
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X038",
+    "seq": 537
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X039",
+    "seq": 538
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X040",
+    "seq": 539
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X041",
+    "seq": 540
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X042",
+    "seq": 541
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X043",
+    "seq": 542
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X044",
+    "seq": 543
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X045",
+    "seq": 544
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X046",
+    "seq": 545
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X047",
+    "seq": 546
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X048",
+    "seq": 547
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X049",
+    "seq": 548
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S1-X050",
+    "seq": 549
+   }
+  ],
+  "2": [
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X001",
+    "seq": 500
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X002",
+    "seq": 501
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X003",
+    "seq": 502
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X004",
+    "seq": 503
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X005",
+    "seq": 504
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X006",
+    "seq": 505
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X007",
+    "seq": 506
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X008",
+    "seq": 507
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X009",
+    "seq": 508
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X010",
+    "seq": 509
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X011",
+    "seq": 510
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X012",
+    "seq": 511
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X013",
+    "seq": 512
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X014",
+    "seq": 513
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X015",
+    "seq": 514
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X016",
+    "seq": 515
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X017",
+    "seq": 516
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X018",
+    "seq": 517
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X019",
+    "seq": 518
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X020",
+    "seq": 519
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X021",
+    "seq": 520
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X022",
+    "seq": 521
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X023",
+    "seq": 522
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X024",
+    "seq": 523
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X025",
+    "seq": 524
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X026",
+    "seq": 525
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X027",
+    "seq": 526
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X028",
+    "seq": 527
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X029",
+    "seq": 528
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X030",
+    "seq": 529
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X031",
+    "seq": 530
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X032",
+    "seq": 531
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X033",
+    "seq": 532
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X034",
+    "seq": 533
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X035",
+    "seq": 534
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X036",
+    "seq": 535
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X037",
+    "seq": 536
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X038",
+    "seq": 537
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X039",
+    "seq": 538
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X040",
+    "seq": 539
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X041",
+    "seq": 540
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X042",
+    "seq": 541
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X043",
+    "seq": 542
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X044",
+    "seq": 543
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X045",
+    "seq": 544
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X046",
+    "seq": 545
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X047",
+    "seq": 546
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X048",
+    "seq": 547
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X049",
+    "seq": 548
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S2-X050",
+    "seq": 549
+   }
+  ],
+  "3": [
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X001",
+    "seq": 500
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X002",
+    "seq": 501
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X003",
+    "seq": 502
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X004",
+    "seq": 503
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X005",
+    "seq": 504
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X006",
+    "seq": 505
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X007",
+    "seq": 506
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X008",
+    "seq": 507
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X009",
+    "seq": 508
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X010",
+    "seq": 509
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X011",
+    "seq": 510
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X012",
+    "seq": 511
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X013",
+    "seq": 512
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X014",
+    "seq": 513
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X015",
+    "seq": 514
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X016",
+    "seq": 515
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X017",
+    "seq": 516
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X018",
+    "seq": 517
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X019",
+    "seq": 518
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X020",
+    "seq": 519
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X021",
+    "seq": 520
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X022",
+    "seq": 521
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X023",
+    "seq": 522
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X024",
+    "seq": 523
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X025",
+    "seq": 524
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X026",
+    "seq": 525
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X027",
+    "seq": 526
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X028",
+    "seq": 527
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X029",
+    "seq": 528
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X030",
+    "seq": 529
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X031",
+    "seq": 530
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X032",
+    "seq": 531
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X033",
+    "seq": 532
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X034",
+    "seq": 533
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X035",
+    "seq": 534
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X036",
+    "seq": 535
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X037",
+    "seq": 536
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X038",
+    "seq": 537
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X039",
+    "seq": 538
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X040",
+    "seq": 539
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X041",
+    "seq": 540
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X042",
+    "seq": 541
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X043",
+    "seq": 542
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X044",
+    "seq": 543
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X045",
+    "seq": 544
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X046",
+    "seq": 545
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X047",
+    "seq": 546
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X048",
+    "seq": 547
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X049",
+    "seq": 548
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S3-X050",
+    "seq": 549
+   }
+  ],
+  "4": [
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X001",
+    "seq": 500
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X002",
+    "seq": 501
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X003",
+    "seq": 502
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X004",
+    "seq": 503
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X005",
+    "seq": 504
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X006",
+    "seq": 505
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X007",
+    "seq": 506
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X008",
+    "seq": 507
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X009",
+    "seq": 508
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X010",
+    "seq": 509
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X011",
+    "seq": 510
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X012",
+    "seq": 511
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X013",
+    "seq": 512
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X014",
+    "seq": 513
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X015",
+    "seq": 514
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X016",
+    "seq": 515
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X017",
+    "seq": 516
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X018",
+    "seq": 517
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X019",
+    "seq": 518
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X020",
+    "seq": 519
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X021",
+    "seq": 520
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X022",
+    "seq": 521
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X023",
+    "seq": 522
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X024",
+    "seq": 523
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X025",
+    "seq": 524
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X026",
+    "seq": 525
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X027",
+    "seq": 526
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X028",
+    "seq": 527
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X029",
+    "seq": 528
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X030",
+    "seq": 529
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X031",
+    "seq": 530
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X032",
+    "seq": 531
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X033",
+    "seq": 532
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X034",
+    "seq": 533
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X035",
+    "seq": 534
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X036",
+    "seq": 535
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X037",
+    "seq": 536
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X038",
+    "seq": 537
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X039",
+    "seq": 538
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X040",
+    "seq": 539
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X041",
+    "seq": 540
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X042",
+    "seq": 541
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X043",
+    "seq": 542
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X044",
+    "seq": 543
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X045",
+    "seq": 544
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X046",
+    "seq": 545
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X047",
+    "seq": 546
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X048",
+    "seq": 547
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X049",
+    "seq": 548
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S4-X050",
+    "seq": 549
+   }
+  ],
+  "5": [
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X001",
+    "seq": 500
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X002",
+    "seq": 501
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X003",
+    "seq": 502
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X004",
+    "seq": 503
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X005",
+    "seq": 504
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X006",
+    "seq": 505
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X007",
+    "seq": 506
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X008",
+    "seq": 507
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X009",
+    "seq": 508
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X010",
+    "seq": 509
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X011",
+    "seq": 510
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X012",
+    "seq": 511
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X013",
+    "seq": 512
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X014",
+    "seq": 513
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X015",
+    "seq": 514
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X016",
+    "seq": 515
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X017",
+    "seq": 516
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X018",
+    "seq": 517
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X019",
+    "seq": 518
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X020",
+    "seq": 519
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X021",
+    "seq": 520
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X022",
+    "seq": 521
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X023",
+    "seq": 522
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X024",
+    "seq": 523
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X025",
+    "seq": 524
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X026",
+    "seq": 525
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X027",
+    "seq": 526
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X028",
+    "seq": 527
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X029",
+    "seq": 528
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X030",
+    "seq": 529
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X031",
+    "seq": 530
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X032",
+    "seq": 531
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X033",
+    "seq": 532
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X034",
+    "seq": 533
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X035",
+    "seq": 534
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X036",
+    "seq": 535
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X037",
+    "seq": 536
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X038",
+    "seq": 537
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X039",
+    "seq": 538
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X040",
+    "seq": 539
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X041",
+    "seq": 540
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X042",
+    "seq": 541
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X043",
+    "seq": 542
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X044",
+    "seq": 543
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X045",
+    "seq": 544
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F2",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X046",
+    "seq": 545
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": true,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "same_load_no_other_broker",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X047",
+    "seq": 546
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F3",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X048",
+    "seq": 547
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F1",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X049",
+    "seq": 548
+   },
+   {
+    "baseline": {
+     "codes": [],
+     "decision": "pay"
+    },
+    "bol_name_matches_ratecon": false,
+    "exposure_cents": 0,
+    "factor_id": "F4",
+    "issue_name": "clean",
+    "issue_type": 0,
+    "lookalike": "dba_on_bol",
+    "payhold": {
+     "codes": [],
+     "decision": "pay",
+     "messages": []
+    },
+    "request_id": "S5-X050",
+    "seq": 549
+   }
+  ]
+ },
+ "labels": {
+  "dba_on_bol": "DBA name on BOL/POD",
+  "same_load_no_other_broker": "same load number, different broker (confirms key scoping)"
+ },
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "synthetic": true
+}

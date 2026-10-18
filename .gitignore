@@ -5,8 +5,8 @@
 footage/
 
 # Data and models (fetch with scripts instead)
-data/
-models/
+/data/
+/models/
 
 # Build output
 build/
