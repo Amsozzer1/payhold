@@ -15,6 +15,7 @@ jobs:
           version: "0.12.19"
       - run: uv sync --frozen
       - run: make test
+      - run: make test-integration
 
   leak-check:
     runs-on: ubuntu-24.04
