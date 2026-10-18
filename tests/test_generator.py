@@ -18,13 +18,6 @@ def tree_identical(a: Path, b: Path) -> bool:
     return all(tree_identical(a / d, b / d) for d in cmp.common_dirs)
 
 
-@pytest.fixture(scope="module")
-def seed1(tmp_path_factory):
-    out = tmp_path_factory.mktemp("gen") / "seed-1"
-    generate(1, 500, out)
-    return out
-
-
 def test_counts_match_config_exactly(seed1):
     truth = json.loads((seed1 / "truth.json").read_text())
     assert truth["counts"] == expected_counts(500)
