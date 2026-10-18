@@ -38,3 +38,18 @@ Why each decision was made, what was tried and dropped, and what the numbers cha
 
 ## 9. Thresholds
 **Chose:** padding tolerance $0, recent remit-to change window 30 days, payout lease 300 s. Set on dev seeds 101-102. The generator plants recent changes 1-5 days before a request and background changes 120-700 days before, so any window between 5 and 120 days gives the same dev-seed result. 30 days sits well inside that range.
+
+## 10. The money-shot data was missing from the first results commit
+**What happened:** after the first `make eval` on the report seeds, `git status` listed the new files in `results/` but nothing under `web/public/data/`. The `.gitignore` line `data/` (meant for generated PDFs at the repo root) matched every directory named `data`, including the page's export.
+**Fix:** anchored the pattern to the root (`/data/`). Caught before the commit, so no results were lost, but the page would have built in CI from data that never reached the repo.
+
+## 11. Page dependencies chosen for their licenses
+**Chose:** Tailwind 3.4 instead of 4, and a local empty stub in place of `sharp`.
+**Because:** the repo allows no copyleft dependencies. Tailwind 4 pulls in `lightningcss` (MPL-2.0). Next.js lists `sharp` as an optional dependency, and sharp downloads prebuilt libvips binaries under LGPL; the page is a static export with plain `<img>` tags, so image optimization never runs and the stub is never loaded. Next.js telemetry is switched off with `NEXT_TELEMETRY_DISABLED=1` in the Makefile and CI.
+
+## 12. The featured packet is the fourth one
+**What happened:** the plan picks the first double-factoring follower in seed 1 that the baseline paid and payhold held. In seed 1 that is the fourth packet (request S1-0004), 35 synthetic minutes after its first request. It was kept rather than hand-picking a later one, so the GIF shows the replay first and then opens the packet once the replay ends.
+
+## 13. Page images cropped to the field area
+**Chose:** the page PNGs are full 100 dpi pages, and the detail view crops them to the top of the page where the identifiers sit.
+**Because:** three full letter pages side by side in a 1,000 px GIF leave the boxed numbers unreadable. Cropping keeps the boxes and labels legible without a second export.
