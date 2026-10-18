@@ -3,7 +3,7 @@ N ?= 500
 DDB_IMAGE := amazon/dynamodb-local:3.3.1
 DDB_ENV := AWS_ACCESS_KEY_ID=dummy AWS_SECRET_ACCESS_KEY=dummy AWS_DEFAULT_REGION=us-east-1
 
-.PHONY: hooks sync test gen roundtrip dev ddb-up ddb-down test-integration payout-trials
+.PHONY: hooks sync test gen roundtrip dev eval ddb-up ddb-down test-integration payout-trials
 
 hooks:
 	git config core.hooksPath .githooks
@@ -46,3 +46,7 @@ payout-trials: ddb-up
 	$(DDB_ENV) uv run python -m eval.payout_trials --trials 100 --out results/payout_trials.json \
 	  && $(DDB_ENV) uv run python -m eval.payout_trials --control --trials 100 --out results/payout_naive_control.json; \
 	  status=$$?; $(MAKE) ddb-down; exit $$status
+
+# Report seeds 1-5 through both deciders. Local only: refuses a dirty tree or decision code that moved since the freeze.
+eval:
+	uv run python -m eval.run --seeds 1 2 3 4 5 --n $(N)
