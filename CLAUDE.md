@@ -6,8 +6,10 @@ A small, real project built to show how I'd approach a specific problem. It will
 Planning docs live in `.private/` (gitignored): `PRD.md` is the spec to build, `company.md` has context and the words to avoid. Read both before starting. Never copy anything from `.private/` into tracked files.
 
 ## Commands
-- Build: `make sync` (installs git hooks, then `uv sync --frozen`)
-- Test: `make test`
+- Build: `make sync` (installs git hooks, then `uv sync --frozen`); `make web` builds the page
+- Test: `make test`; `make test-integration` (starts DynamoDB Local in docker)
+- Run the demo: `make web`, then serve `web/out/`; `make gif` records `docs/demo.gif`
+- Measure / regenerate results: `make eval` (report seeds, local only, needs a clean tree), `make payout-trials`, `make roundtrip`, `make dev`
 
 ## How to work
 - Build milestone by milestone from `.private/PRD.md`. Don't skip acceptance checks.
