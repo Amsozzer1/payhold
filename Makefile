@@ -3,7 +3,7 @@ N ?= 500
 DDB_IMAGE := amazon/dynamodb-local:3.3.1
 DDB_ENV := AWS_ACCESS_KEY_ID=dummy AWS_SECRET_ACCESS_KEY=dummy AWS_DEFAULT_REGION=us-east-1
 
-.PHONY: hooks sync test gen gen-heldout roundtrip dev eval ddb-up ddb-down test-integration payout-trials
+.PHONY: hooks sync test gen gen-heldout roundtrip dev eval web gif ddb-up ddb-down test-integration payout-trials
 
 hooks:
 	git config core.hooksPath .githooks
@@ -57,3 +57,12 @@ payout-trials: ddb-up
 eval:
 	for s in 1 2 3 4 5; do $(MAKE) --no-print-directory gen-heldout SEED=$$s || exit 1; done
 	uv run python -m eval.run --seeds 1 2 3 4 5 --n $(N)
+
+# The money-shot page: a static Next.js export in web/out. Next.js telemetry is switched off.
+web:
+	cd web && npm ci --no-audit --no-fund && NEXT_TELEMETRY_DISABLED=1 npm run build
+
+# docs/demo.gif: Playwright records the page (Chromium is downloaded into web/.browsers), ffmpeg converts it.
+gif: web
+	cd web && PLAYWRIGHT_BROWSERS_PATH=.browsers npx playwright install chromium-headless-shell
+	cd web && PLAYWRIGHT_BROWSERS_PATH=.browsers node scripts/record-gif.mjs
