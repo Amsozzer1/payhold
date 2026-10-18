@@ -53,7 +53,19 @@ def money_shot_section(ms: dict) -> list[str]:
     ]
 
 
-def build(decisions: dict, payout: dict | None, control: dict | None, freeze: str | None, money_shot: dict | None = None) -> str:
+def parse_roundtrip(text: str) -> dict:
+    """Totals from `make roundtrip` output lines like 'data/seed-1: 18000 fields checked, 0 failures'."""
+    checked = failures = seeds = 0
+    for line in text.splitlines():
+        if "fields checked" in line:
+            parts = line.split(":")[1].replace(",", " ").split()
+            checked += int(parts[0])
+            failures += int(parts[3])
+            seeds += 1
+    return {"checked": checked, "failures": failures, "seeds": seeds}
+
+
+def build(decisions: dict, payout: dict | None, control: dict | None, freeze: str | None, money_shot: dict | None = None, roundtrip: dict | None = None) -> str:
     seeds = decisions["seeds"]
     main = {s: decisions["main"][str(s)] for s in seeds}
     heldout = {s: decisions["heldout"][str(s)] for s in seeds if str(s) in decisions.get("heldout", {})}
@@ -117,20 +129,26 @@ def build(decisions: dict, payout: dict | None, control: dict | None, freeze: st
             r = payout[s]
             val = f"{r['attempts_min']}" if r["attempts_min"] == r["attempts_max"] else f"{r['attempts_min']}-{r['attempts_max']}"
             L.append(
-                f"| Duplicate payouts ({s}) | Rail attempts per load, {what}, rail dedupe off, DynamoDB Local | n/a | {val} in every trial | "
+                f"| Duplicate payouts ({s}) | Rail attempts per load, {what}, rail dedupe off, DynamoDB Local | no payout step | {val} in every trial | "
                 f"aggregate: min-max across trials | {r['trials']} trials | {r['trials']} loads | `results/payout_trials.json` |"
             )
         c = payout["c"]
         att, snd = sorted(set(c["attempts_per_trial"])), sorted(set(c["sends_per_trial"]))
         L.append(
-            f"| Duplicate payouts (c) | Crash after the rail call, clock past the lease, retry | n/a | {'/'.join(map(str, att))} attempts, "
+            f"| Duplicate payouts (c) | Crash after the rail call, clock past the lease, retry | no payout step | {'/'.join(map(str, att))} attempts, "
             f"{'/'.join(map(str, snd))} send in every trial | aggregate across trials | {c['trials']} trials | {c['trials']} loads | `results/payout_trials.json` |"
         )
     if control:
         L.append(
             f"| Read-then-write control | Scenario (a) with the conditional write replaced by read-then-write. A race, so it varies run to run | "
-            f"n/a | {control['attempts_min']}-{control['attempts_max']} rail attempts per load | single run of {control['trials']} trials, min-max | "
+            f"no payout step | {control['attempts_min']}-{control['attempts_max']} rail attempts per load | single run of {control['trials']} trials, min-max | "
             f"{control['trials']} trials | {control['trials']} loads | `results/payout_naive_control.json` |"
+        )
+    if roundtrip:
+        L.append(
+            f"| Extraction round-trip | Every extracted field vs the generator's spec, seed 1 and dev seeds 101-102 | no separate extractor | "
+            f"{roundtrip['failures']} failures in {roundtrip['checked']:,} field checks | aggregate over {roundtrip['seeds']} seeds | "
+            f"{roundtrip['seeds']} seeds x 500 packets x 3 PDFs | {roundtrip['checked']:,} fields | `results/roundtrip.txt` (`make roundtrip`) |"
         )
     L += ["", "Decision latency is in [`latency.md`](latency.md) (timings are kept out of this file so it stays byte-identical across runs).", ""]
 
@@ -205,6 +223,7 @@ def write(results: Path, freeze: str | None, money_shot: dict | None = None) -> 
         decisions["heldout"], decisions["heldout_labels"] = held["heldout"], held["labels"]
     payout = json.loads(p.read_text()) if (p := results / "payout_trials.json").exists() else None
     control = json.loads(p.read_text()) if (p := results / "payout_naive_control.json").exists() else None
-    text = build(decisions, payout, control, freeze, money_shot)
+    roundtrip = parse_roundtrip(p.read_text()) if (p := results / "roundtrip.txt").exists() else None
+    text = build(decisions, payout, control, freeze, money_shot, roundtrip)
     (results / "numbers.md").write_text(text)
     return text
